@@ -62,6 +62,7 @@ screen.onkey(turn_left, 'Left')
 screen.onkey(turn_right, 'Right')
 screen.onkey(increase_speed, 'Up')
 
+print_score()
 while True:
     player.forward(speed)
     if (player.xcor() < -250) or (player.xcor() > 250):
